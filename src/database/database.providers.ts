@@ -1,7 +1,8 @@
 import { Sequelize } from 'sequelize-typescript';
+import { Member } from 'src/member/entities/member.entity';
 import { Book } from 'src/book/entities/book.entity';
 import { BorrowedBook } from 'src/borrowed-book/entities/borrowed-book.entity';
-import { Member } from 'src/member/entities/member.entity';
+
 export const databaseProviders = [
   {
     provide: 'SEQUELIZE',

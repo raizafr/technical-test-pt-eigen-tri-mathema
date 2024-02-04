@@ -8,7 +8,13 @@ import { MockdataModule } from './mockdata/mockdata.module';
 import { BorrowedBookModule } from './borrowed-book/borrowed-book.module';
 
 @Module({
-  imports: [MemberModule, DatabaseModule, BookModule, MockdataModule, BorrowedBookModule],
+  imports: [
+    MemberModule,
+    DatabaseModule,
+    BookModule,
+    MockdataModule,
+    BorrowedBookModule,
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
