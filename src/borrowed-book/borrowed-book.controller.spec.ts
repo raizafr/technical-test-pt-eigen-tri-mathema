@@ -9,7 +9,7 @@ import { memberProviders } from '../member/member.providers';
 import { bookProviders } from '../book/book.providers';
 import { MemberService } from '../member/member.service';
 
-describe('AppController', () => {
+describe('BorrowedBookController', () => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   let borrowedBookController: BorrowedBookController;
   let borrowedBookService: BorrowedBookService;

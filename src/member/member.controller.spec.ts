@@ -6,7 +6,7 @@ import { memberProviders } from './member.providers';
 import { CreateMemberDto } from './dto/create-member.dto';
 import { DeleteMemberDto } from './dto/delete-member.dto';
 
-describe('AppController', () => {
+describe('MemberController', () => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   let memberController: MemberController;
   // eslint-disable-next-line @typescript-eslint/no-unused-vars

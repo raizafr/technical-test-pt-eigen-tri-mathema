@@ -6,7 +6,7 @@ import { CreateBookDto } from './dto/create-book.dto';
 import { Response } from 'express';
 import { DeleteBookDto } from './dto/delete-book.dto';
 
-describe('AppController', () => {
+describe('BookController', () => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   let bookController: BookController;
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
