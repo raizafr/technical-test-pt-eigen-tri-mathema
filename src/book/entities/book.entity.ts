@@ -1,5 +1,5 @@
 import { Table, Column, Model, DataType, HasMany } from 'sequelize-typescript';
-import { BorrowedBook } from 'src/borrowed-book/entities/borrowed-book.entity';
+import { BorrowedBook } from '../../borrowed-book/entities/borrowed-book.entity';
 
 @Table
 export class Book extends Model {

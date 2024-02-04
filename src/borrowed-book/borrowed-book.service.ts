@@ -4,8 +4,8 @@ import { Response } from 'express';
 import { BorrowedBook } from './entities/borrowed-book.entity';
 import { Member } from 'src/member/entities/member.entity';
 import { Book } from 'src/book/entities/book.entity';
-import { MemberService } from 'src/member/member.service';
-import { BookService } from 'src/book/book.service';
+import { BookService } from '../book/book.service';
+import { MemberService } from '../member/member.service';
 
 @Injectable()
 export class BorrowedBookService {

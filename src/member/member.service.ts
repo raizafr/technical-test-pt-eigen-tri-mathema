@@ -3,7 +3,7 @@ import { CreateMemberDto } from './dto/create-member.dto';
 import { Member } from './entities/member.entity';
 import { Response } from 'express';
 import { DeleteMemberDto } from './dto/delete-member.dto';
-import { BorrowedBook } from 'src/borrowed-book/entities/borrowed-book.entity';
+import { BorrowedBook } from '../borrowed-book/entities/borrowed-book.entity';
 
 @Injectable()
 export class MemberService {
