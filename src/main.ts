@@ -5,7 +5,7 @@ import { ValidationPipe } from '@nestjs/common';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-
+  app.enableCors();
   app.setGlobalPrefix('api/v1');
   const config = new DocumentBuilder()
     .setTitle('Documentasi API Technical Test PT. Eigen Tri Mathema')

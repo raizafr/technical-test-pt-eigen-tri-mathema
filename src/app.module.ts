@@ -6,9 +6,10 @@ import { DatabaseModule } from './database/database.module';
 import { BookModule } from './book/book.module';
 import { MockdataModule } from './mockdata/mockdata.module';
 import { BorrowedBookModule } from './borrowed-book/borrowed-book.module';
-
+import { ConfigModule } from '@nestjs/config';
 @Module({
   imports: [
+    ConfigModule.forRoot(),
     MemberModule,
     DatabaseModule,
     BookModule,
