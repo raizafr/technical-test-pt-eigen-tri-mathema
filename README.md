@@ -27,7 +27,7 @@ $ npm install
 
 ## Add .env file di root project
 
-Create file .env, contoh field dan value sudah saya sediakan di .env.example
+Create file `.env`, contoh field dan value sudah saya sediakan di .env.example
 
 ## Create Database
 
